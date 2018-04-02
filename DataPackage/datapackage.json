@@ -1,0 +1,31 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "2000 to 2004 monthlyPrices.csv",
+      "path": "../2000 to 2004 monthlyPrices.csv",  
+    },
+    {
+      "name": "allDailyPrices.csv",
+      "path": "../allDailyPrices.csv",  
+    },
+    {
+      "name": "allMonthlyPrices.csv",
+      "path": "../allMonthlyPrices.csv",  
+    }
+  ],
+  "name": "natural gas prices",
+  "title": "Natural Gas Prices Datapackage",
+  "description": "The daily and monthly prices for natural gas as given by EIA",
+  "contributors": [
+    {
+      "title": "Kelvin Gakuo",
+      "role": "author",
+      "email": "kelvingakuo@gmail.com"
+    }
+  ],
+  "sources": [{
+    "name": "EIA",
+    "web": "http://www.eia.gov/dnav/ng/hist/rngwhhdm.htm"
+  }],
+}
